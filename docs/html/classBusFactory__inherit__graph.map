@@ -1,0 +1,4 @@
+<map id="BusFactory" name="BusFactory">
+<area shape="rect" id="node1" title="Bus Factory to produce Bus class." alt="" coords="14,80,109,107"/>
+<area shape="rect" id="node2" href="$classIEntityFactory.html" title="Composite Factory Interface." alt="" coords="5,5,117,32"/>
+</map>

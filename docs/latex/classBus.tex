@@ -1,0 +1,293 @@
+\hypertarget{classBus}{}\doxysection{Bus Class Reference}
+\label{classBus}\index{Bus@{Bus}}
+
+
+Inheritance diagram for Bus\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classBus__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Bus\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classBus__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBus_ada7ec0325e072e507816af946c26e894}{Bus}} (Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classBus}{Bus}}\textquotesingle{}s are created with a name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBus_aab6194602b6a5a4fa87987f7c1adf35d}\label{classBus_aab6194602b6a5a4fa87987f7c1adf35d}} 
+\mbox{\hyperlink{classBus_aab6194602b6a5a4fa87987f7c1adf35d}{$\sim$\+Bus}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \mbox{\hyperlink{classBus}{Bus}} object. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classBus_a4e6b80dd1663001d1a82b8dc02d185f4}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Gets the speed of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classBus_a4d47babf78e2c154c250ee7b0ce7623c}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Gets the position of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classBus_abf10213b781367612e8d18eb7935778d}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Gets the direction of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classBus_ac873184e0bf8ccde8bc3438109669106}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Gets the destination of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+Json\+Object \mbox{\hyperlink{classBus_ade3bf3d91d01e9e23526314c0028a0ba}{Get\+Details}} () const
+\begin{DoxyCompactList}\small\item\em Gets the details information of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBus_a0f8dcc1ffbe1ad308e617acf8600acf3}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Updates the \mbox{\hyperlink{classBus}{Bus}}\textquotesingle{}s position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBus_a6bd58e2ac228d31c26a28e8610619871}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the position of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBus_adba9a4d5802bf9c3ad0361b80bc09a4d}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the direction of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBus_ad31d7bf3ed6e3e672c3fcca250fa4a58}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the destination of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBus_a97415ac09026e7218fbb43a68b5607b0}{Set\+Station}} (int stat\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the Station of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBus_a1aaa934c0967cb46b146c83fbba0f237}\label{classBus_a1aaa934c0967cb46b146c83fbba0f237}} 
+int \mbox{\hyperlink{classBus_a1aaa934c0967cb46b146c83fbba0f237}{Get\+Station}} ()
+\begin{DoxyCompactList}\small\item\em Gets the station of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBus_a468fabd30082a0a4d4c638c04e95cd66}{is\+Bus}} ()
+\begin{DoxyCompactList}\small\item\em checks if bus \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBus_a7a91157156e8cbab7241dfdd651b614f}{Create\+New\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Creates the new destination of the \mbox{\hyperlink{classBus}{Bus}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBus_ada7ec0325e072e507816af946c26e894}\label{classBus_ada7ec0325e072e507816af946c26e894}} 
+\index{Bus@{Bus}!Bus@{Bus}}
+\index{Bus@{Bus}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{Bus()}{Bus()}}
+{\footnotesize\ttfamily Bus\+::\+Bus (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classBus}{Bus}}\textquotesingle{}s are created with a name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & J\+S\+ON object containing the \mbox{\hyperlink{classBus}{Bus}}\textquotesingle{}s information \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBus_a7a91157156e8cbab7241dfdd651b614f}\label{classBus_a7a91157156e8cbab7241dfdd651b614f}} 
+\index{Bus@{Bus}!CreateNewDestination@{CreateNewDestination}}
+\index{CreateNewDestination@{CreateNewDestination}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{CreateNewDestination()}{CreateNewDestination()}}
+{\footnotesize\ttfamily void Bus\+::\+Create\+New\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})}
+
+
+
+Creates the new destination of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & The new destination of the \mbox{\hyperlink{classBus}{Bus}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBus_ac873184e0bf8ccde8bc3438109669106}\label{classBus_ac873184e0bf8ccde8bc3438109669106}} 
+\index{Bus@{Bus}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Bus\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the destination of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+\begin{DoxyReturn}{Returns}
+The destination of the \mbox{\hyperlink{classBus}{Bus}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a0dcaf865938ab1fb49c8389b5e580d90}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBus_ade3bf3d91d01e9e23526314c0028a0ba}\label{classBus_ade3bf3d91d01e9e23526314c0028a0ba}} 
+\index{Bus@{Bus}!GetDetails@{GetDetails}}
+\index{GetDetails@{GetDetails}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{GetDetails()}{GetDetails()}}
+{\footnotesize\ttfamily Json\+Object Bus\+::\+Get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the details information of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+\begin{DoxyReturn}{Returns}
+The details information of the \mbox{\hyperlink{classBus}{Bus}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a97c799400ce05e2ff2566adc4d7b9634}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBus_abf10213b781367612e8d18eb7935778d}\label{classBus_abf10213b781367612e8d18eb7935778d}} 
+\index{Bus@{Bus}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Bus\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the direction of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+\begin{DoxyReturn}{Returns}
+The direction of the \mbox{\hyperlink{classBus}{Bus}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_aa99a8fef8b22195a5113c38ef51f086d}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBus_a4d47babf78e2c154c250ee7b0ce7623c}\label{classBus_a4d47babf78e2c154c250ee7b0ce7623c}} 
+\index{Bus@{Bus}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Bus\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the position of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+\begin{DoxyReturn}{Returns}
+The position of the \mbox{\hyperlink{classBus}{Bus}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a9bc32587aab91761fc0e718612498199}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBus_a4e6b80dd1663001d1a82b8dc02d185f4}\label{classBus_a4e6b80dd1663001d1a82b8dc02d185f4}} 
+\index{Bus@{Bus}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float Bus\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the speed of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+\begin{DoxyReturn}{Returns}
+The speed of the \mbox{\hyperlink{classBus}{Bus}} 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity_a6520d2b1dc71d092bab38ef9f5cc9ff4}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBus_a468fabd30082a0a4d4c638c04e95cd66}\label{classBus_a468fabd30082a0a4d4c638c04e95cd66}} 
+\index{Bus@{Bus}!isBus@{isBus}}
+\index{isBus@{isBus}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{isBus()}{isBus()}}
+{\footnotesize\ttfamily bool Bus\+::is\+Bus (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+checks if bus 
+
+\begin{DoxyReturn}{Returns}
+boolean for if bus 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a85ef15ff22f932d22b76cfab4b45e8bb}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBus_ad31d7bf3ed6e3e672c3fcca250fa4a58}\label{classBus_ad31d7bf3ed6e3e672c3fcca250fa4a58}} 
+\index{Bus@{Bus}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void Bus\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the destination of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & The new destination of the \mbox{\hyperlink{classBus}{Bus}} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_aa473000823f673e9d7b89aed3cd3fc5c}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBus_adba9a4d5802bf9c3ad0361b80bc09a4d}\label{classBus_adba9a4d5802bf9c3ad0361b80bc09a4d}} 
+\index{Bus@{Bus}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void Bus\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the direction of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+} & The new direction of the \mbox{\hyperlink{classBus}{Bus}} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a64bfaa448a929ca71693ff3e2edb9d97}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBus_a6bd58e2ac228d31c26a28e8610619871}\label{classBus_a6bd58e2ac228d31c26a28e8610619871}} 
+\index{Bus@{Bus}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Bus\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Sets the position of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+} & The new position of the \mbox{\hyperlink{classBus}{Bus}} \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_af0475048b09dc13ed6cf8e7c7be2ae6b}{I\+Entity}}.
+
+\mbox{\Hypertarget{classBus_a97415ac09026e7218fbb43a68b5607b0}\label{classBus_a97415ac09026e7218fbb43a68b5607b0}} 
+\index{Bus@{Bus}!SetStation@{SetStation}}
+\index{SetStation@{SetStation}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{SetStation()}{SetStation()}}
+{\footnotesize\ttfamily void Bus\+::\+Set\+Station (\begin{DoxyParamCaption}\item[{int}]{stat\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the Station of the \mbox{\hyperlink{classBus}{Bus}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stat\+\_\+} & The new station of the \mbox{\hyperlink{classBus}{Bus}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBus_a0f8dcc1ffbe1ad308e617acf8600acf3}\label{classBus_a0f8dcc1ffbe1ad308e617acf8600acf3}} 
+\index{Bus@{Bus}!Update@{Update}}
+\index{Update@{Update}!Bus@{Bus}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Bus\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Updates the \mbox{\hyperlink{classBus}{Bus}}\textquotesingle{}s position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & Delta time \\
+\hline
+{\em scheduler} & Vector containing all the entities in the system \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity_a9a8e8588fd85c7b0d813d60686d4dc2c}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/petzo017/\+Downloads/\+C\+S\+C\+I 3081w/\+Team-\/001-\/06-\/homework4/libs/transit/include/Bus.\+h\item 
+/home/petzo017/\+Downloads/\+C\+S\+C\+I 3081w/\+Team-\/001-\/06-\/homework4/libs/transit/src/Bus.\+cc\end{DoxyCompactItemize}

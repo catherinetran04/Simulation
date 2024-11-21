@@ -1,0 +1,71 @@
+\hypertarget{classBusFactory}{}\doxysection{Bus\+Factory Class Reference}
+\label{classBusFactory}\index{BusFactory@{BusFactory}}
+
+
+\mbox{\hyperlink{classBus}{Bus}} Factory to produce \mbox{\hyperlink{classBus}{Bus}} class.  
+
+
+
+
+{\ttfamily \#include $<$Bus\+Factory.\+h$>$}
+
+
+
+Inheritance diagram for Bus\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classBusFactory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Bus\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classBusFactory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classBusFactory_aed478fd919255efe2a2d2da0709893a7}\label{classBusFactory_aed478fd919255efe2a2d2da0709893a7}} 
+virtual \mbox{\hyperlink{classBusFactory_aed478fd919255efe2a2d2da0709893a7}{$\sim$\+Bus\+Factory}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \mbox{\hyperlink{classIEntityFactory}{I\+Entity\+Factory}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ \mbox{\hyperlink{classBusFactory_a200bbe39eb43cfa5b8731e6a6c6ed7b6}{Create\+Entity}} (Json\+Object \&entity)
+\begin{DoxyCompactList}\small\item\em Creates entity using the given J\+S\+ON object, if possible. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classBus}{Bus}} Factory to produce \mbox{\hyperlink{classBus}{Bus}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBusFactory_a200bbe39eb43cfa5b8731e6a6c6ed7b6}\label{classBusFactory_a200bbe39eb43cfa5b8731e6a6c6ed7b6}} 
+\index{BusFactory@{BusFactory}!CreateEntity@{CreateEntity}}
+\index{CreateEntity@{CreateEntity}!BusFactory@{BusFactory}}
+\doxysubsubsection{\texorpdfstring{CreateEntity()}{CreateEntity()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ Bus\+Factory\+::\+Create\+Entity (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{entity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Creates entity using the given J\+S\+ON object, if possible. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entity} & -\/ Json\+Object to be used to create the new entity. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Entity that was created if it was created successfully, or a nullpointer if creation failed. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntityFactory_a9bd53cf7ca21ab252968062ea5d88180}{I\+Entity\+Factory}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/petzo017/\+Downloads/\+C\+S\+C\+I 3081w/\+Team-\/001-\/06-\/homework4/libs/transit/include/Bus\+Factory.\+h\item 
+/home/petzo017/\+Downloads/\+C\+S\+C\+I 3081w/\+Team-\/001-\/06-\/homework4/libs/transit/src/Bus\+Factory.\+cc\end{DoxyCompactItemize}

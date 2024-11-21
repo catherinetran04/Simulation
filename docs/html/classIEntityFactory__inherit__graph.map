@@ -1,0 +1,9 @@
+<map id="IEntityFactory" name="IEntityFactory">
+<area shape="rect" id="node1" title="Composite Factory Interface." alt="" coords="361,5,473,32"/>
+<area shape="rect" id="node2" href="$classBusFactory.html" title="Bus Factory to produce Bus class." alt="" coords="5,80,100,107"/>
+<area shape="rect" id="node3" href="$classCompositeFactory.html" title="Factory method for composite class. Inherits from IEntityFactory." alt="" coords="124,80,264,107"/>
+<area shape="rect" id="node4" href="$classDroneFactory.html" title="Drone Factory to produce Drones class." alt="" coords="289,80,398,107"/>
+<area shape="rect" id="node5" href="$classHelicopterFactory.html" title="Helicopter Factory to produce Helicopter class." alt="" coords="423,80,560,107"/>
+<area shape="rect" id="node6" href="$classHumanFactory.html" title="Human Factory to produce Human class." alt="" coords="585,80,702,107"/>
+<area shape="rect" id="node7" href="$classRobotFactory.html" title="Robot Factory to produce Robot class." alt="" coords="727,80,835,107"/>
+</map>
